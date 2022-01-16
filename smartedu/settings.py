@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$3wp+oa9q4qdm=n-$@kqle0o265=@636v&jsntp^$7l_(1kw9f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['smarteduproject.herokuapp.com','127.0.0.1']
 
 
 # Application definition
